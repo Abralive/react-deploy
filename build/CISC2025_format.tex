@@ -1,0 +1,105 @@
+
+\documentclass[10pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{CJKutf8}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{cite}
+
+\geometry{top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+\setlength{\columnsep}{0.5cm}
+\setlength{\parskip}{0pt}
+\pagestyle{empty}
+
+\titleformat{\section}{\bfseries\fontsize{12pt}{12pt}\selectfont}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\bfseries\fontsize{11pt}{11pt}\selectfont}{\thesubsection.}{0.5em}{}
+
+\title{\bfseries\fontsize{16pt}{16pt}\selectfont 第三十五屆全國資訊安全會議\\[5pt]Cryptology and Information Security Conference 2025 (CISC2025)}
+\author{
+\begin{tabular}{c}
+作者姓名1\quad 作者姓名2\quad 作者姓名3 \\
+服務單位1,3 \\
+服務單位2 \\
+Email1 \quad Email2 \quad Email3
+\end{tabular}
+}
+
+\date{}
+
+\begin{document}
+\begin{CJK}{UTF8}{bsmi}
+
+\twocolumn[
+  \maketitle
+  \begin{center}
+  \textbf{摘\quad 要}
+  \end{center}
+  本頁內容為有關第三十五屆全國資訊安全會議的全文論文投稿格式，請投稿人直接依據本格式製作稿件。本文件即依此格式製作完成。（若以摘要投稿僅需完成至摘要與關鍵字部分）
+
+  \textbf{關鍵詞：} 以不超過六個為原則。
+  \vspace{1em}
+]
+
+\section{前言}
+
+論文請用A4紙依本格式撰寫，無須列印頁碼，每篇論文以6頁為限，請將論文全文存檔為PDF檔案於2025年5月16日前上傳至本會議網站，詳細傳送方式請參考大會網站說明。若有其他問題，請連絡：
+
+逢甲大學資訊工程系 粘巧鈴老師、楊映萱小姐
+
+407102 台中市西屯區文華路100號
+
+電話: (04)2451-7250 Ext.3706
+
+E-mail: \texttt{fcucisc2025@gmail.com}
+
+研討會網址：\texttt{https://cisc2025.fcu.edu.tw/}
+
+\section{主要內容}
+
+論文撰寫中英文皆可，請選用標楷體之中文字型及 Times New Roman 之英文字型。論文標題為粗體字型，點數為16點，作者資料及章節標題亦為粗體字型，點數為12點，圖表說明請用粗體字型，點數為10點，其餘論文內容及參考文獻為標楷體字型，點數為10點。中文稿件請附摘要與關鍵詞，英文稿件附 Abstract 與 Keywords。定稿請勿插入頁碼。
+
+標號請用半型阿拉伯數字，標題請靠左，並與前後保持一行的間隔。
+
+\subsection{圖表及公式}
+
+圖形、表格及公式請依先後次序標號，標號請用半型阿拉伯數字，並將圖說撰寫於圖形下方置中，表格說明撰寫於表格上方置中。
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\linewidth]{example-image}
+  \caption{\textbf{圖 1} 大會主題}
+\end{figure}
+
+\begin{table}[h]
+  \centering
+  \caption{\textbf{表 1} 邊界設定格式}
+  \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    邊界 & 上 & 下 & 左 & 右 & 欄寬(cm) & 欄距(cm) \\
+    \hline
+    值 & 2.5 & 2.5 & 2.5 & 2.5 & 7.75 & 0.5 \\
+    \hline
+  \end{tabular}
+\end{table}
+
+\section{參考文獻}
+
+\bibliographystyle{plain}
+\begin{thebibliography}{99}
+\bibitem{Joux2010}
+A. Joux, V. Vitse, ``Elliptic Curve Discrete Logarithm Problem over Small Degree Extension Fields. Application to the static Diffie-Hellman problem on $E(\mathbb{F}_{q^5})$,'' Cryptology ePrint Archive, Report 2010/157 (2010).
+
+\bibitem{Koblitz2008}
+N. Koblitz, A. J. Menezes, ``Another look at non-standard discrete log and Diffie-Hellman problems,'' Journal of Mathematical Cryptology, Vol. 2, No. 4, pp. 311--326, 2008.
+
+\bibitem{Young1989}
+M. Young, \textit{The Technical Writer’s Handbook}, Mill Valley, CA: University Science, 1989.
+\end{thebibliography}
+
+\end{CJK}
+\end{document}
